@@ -1,0 +1,42 @@
+###
+POST http://127.0.0.1:8000/api/token/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"Sunny",
+    "password":"Rx4:rWa.VMD58rm"
+}
+
+###
+GET http://127.0.0.1:8000/api/ping/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY1MDYyMjIxLCJpYXQiOjE3NjUwNjE5MjEsImp0aSI6Ijk4NWQwNzRkYWUzMzQ2MzY5ZGU1MjEwYWRlN2IyYWY0IiwidXNlcl9pZCI6IjMifQ.dEucmcoZkmMDNLv534kz63jc8K_8kdsBTEdkbmPOheU
+
+
+###
+POST http://127.0.0.1:8000/api/register/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"Pujan",
+    "email":"Pujan@gmail.com",
+    "phone_number":"6789123451",
+    "password":"Pujan@123"
+}
+
+# loing and password
+# for Nisarg = [passwrod = nisarg@0210]
+# for Pujan = [password = Pujan@123]
+# for Sunny = [password = Rx4:rWa.VMD58rm]
+
+###
+POST http://127.0.0.1:8000/api/login/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "username":"Nisarg",
+    "password":"nisarg@0210"
+}
+
+
+###
+GET 
