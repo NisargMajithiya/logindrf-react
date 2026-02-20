@@ -6,7 +6,7 @@ This is an ongoing learning project focused on understanding authentication syst
 
 ## Tech Stack
 
-React, Django REST Framework, Python, JWT, AuthContext
+React, Django REST Framework, Python, JWT,
 
 ## Features
 
